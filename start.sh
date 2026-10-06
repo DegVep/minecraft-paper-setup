@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# Arranque para Linux/VPS con los flags de Aikar (recomendados por PaperMC).
-# Ajusta MEM a la RAM que quieras dar al servidor (deja ~1-2 GB libres para el sistema).
+# Linux/VPS startup script with Aikar's flags (recommended by PaperMC).
+# Set MEM to the RAM you want to give the server (leave ~1-2 GB free for the OS).
 MEM="${MEM:-6G}"
 cd "$(dirname "$0")"
 exec java -Xms"$MEM" -Xmx"$MEM" \

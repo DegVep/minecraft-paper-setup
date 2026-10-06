@@ -1,17 +1,17 @@
-# Mundos (demasiado grandes y binarios)
+# Worlds (too large and binary)
 world/
 world_nether/
 world_the_end/
 backups/
 
-# Binarios y caché
+# Binaries and cache
 *.jar
 cache/
 libraries/
 versions/
 .paper/
 
-# Logs y datos de jugadores
+# Logs and player data
 logs/
 crash-reports/
 ops.json
@@ -20,7 +20,7 @@ whitelist.json
 banned-ips.json
 banned-players.json
 
-# Datos de plugins (bases de datos, librerías, traducciones)
+# Plugin data (databases, libraries, translations)
 plugins/*/*.db
 plugins/*/*.mv.db
 plugins/LuckPerms/libs/
@@ -28,5 +28,5 @@ plugins/LuckPerms/translations/
 plugins/spark/tmp/
 plugins/bStats/
 
-# Acepta la EULA cada uno en su máquina
+# Each user accepts the EULA on their own machine
 eula.txt
